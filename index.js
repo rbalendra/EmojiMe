@@ -17,6 +17,9 @@ function renderEmojis() {
 
 renderEmojis()
 
+
+
+
 pushBtn.addEventListener("click", function(){
     if (emojiInput.value) {
         myEmojis.push(emojiInput.value)
